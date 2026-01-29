@@ -25,10 +25,10 @@ const Index = () => {
         <h1 className="text-3xl font-bold text-foreground tracking-wide mb-3">
           APACHI
         </h1>
-        <p className="text-muted-foreground text-center text-base mb-2">
+        <p className="text-muted-foreground text-center text-lg mb-2">
           Молодий виконавець, Ді-джей та реміксер
         </p>
-        <p className="text-muted-foreground text-center text-sm max-w-sm">
+        <p className="text-muted-foreground text-center text-base max-w-sm">
           Буду радий якщо підтримаєте мою творчість підпискою
         </p>
       </div>
