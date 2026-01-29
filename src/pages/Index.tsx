@@ -58,7 +58,7 @@ const Index = () => {
       </div>
 
       {/* Links Section */}
-      <div className="w-full max-w-lg space-y-4">
+      <div className="w-full max-w-lg space-y-5">
         {links.map((link) => (
           <a
             key={link.name}
