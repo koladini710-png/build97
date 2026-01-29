@@ -3,11 +3,12 @@ import artistAvatar from "@/assets/artist-avatar.jpg";
 
 const Index = () => {
   const links = [
-    { name: "globalnews", url: "#" },
-    { name: "globalnews", url: "#" },
-    { name: "globalnews", url: "#" },
-    { name: "globalnews", url: "#" },
-    { name: "globalnews", url: "#" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
   ];
 
   return (
