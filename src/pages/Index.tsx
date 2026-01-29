@@ -1,38 +1,13 @@
 import ServiceCard from "@/components/ServiceCard";
-import SpotifyIcon from "@/components/icons/SpotifyIcon";
-import YouTubeMusicIcon from "@/components/icons/YouTubeMusicIcon";
-import YouTubeIcon from "@/components/icons/YouTubeIcon";
-import TikTokIcon from "@/components/icons/TikTokIcon";
-import InstagramIcon from "@/components/icons/InstagramIcon";
 import artistAvatar from "@/assets/artist-avatar.jpg";
 
 const Index = () => {
   const links = [
-    {
-      icon: <SpotifyIcon className="w-7 h-7" />,
-      name: "Spotify",
-      url: "https://spotify.com",
-    },
-    {
-      icon: <YouTubeMusicIcon className="w-7 h-7 text-foreground" />,
-      name: "YouTube Music",
-      url: "https://music.youtube.com",
-    },
-    {
-      icon: <YouTubeIcon className="w-7 h-7 text-foreground" />,
-      name: "YouTube",
-      url: "https://youtube.com",
-    },
-    {
-      icon: <TikTokIcon className="w-7 h-7 text-foreground" />,
-      name: "TikTok",
-      url: "https://tiktok.com",
-    },
-    {
-      icon: <InstagramIcon className="w-7 h-7 text-foreground" />,
-      name: "Instagram",
-      url: "https://instagram.com",
-    },
+    { name: "globalnews", url: "#" },
+    { name: "globalnews", url: "#" },
+    { name: "globalnews", url: "#" },
+    { name: "globalnews", url: "#" },
+    { name: "globalnews", url: "#" },
   ];
 
   return (
@@ -59,15 +34,15 @@ const Index = () => {
 
       {/* Links Section */}
       <div className="w-full max-w-lg flex flex-col gap-5">
-        {links.map((link) => (
+        {links.map((link, index) => (
           <a
-            key={link.name}
+            key={index}
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
             className="block"
           >
-            <ServiceCard icon={link.icon} name={link.name} />
+            <ServiceCard name={link.name} />
           </a>
         ))}
       </div>
