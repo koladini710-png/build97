@@ -29,7 +29,7 @@ const Index = () => {
           Молодий виконавець, Ді-джей та реміксер
         </p>
         <p className="text-muted-foreground text-center text-base max-w-sm">
-          Буду радий якщо підтримаєте мою творчість підпискою
+          Дивіться новини про мене
         </p>
       </div>
 
