@@ -58,13 +58,14 @@ const Index = () => {
       </div>
 
       {/* Links Section */}
-      <div className="w-full max-w-lg space-y-5">
+      <div className="w-full max-w-lg flex flex-col gap-5">
         {links.map((link) => (
           <a
             key={link.name}
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
+            className="block"
           >
             <ServiceCard icon={link.icon} name={link.name} />
           </a>
