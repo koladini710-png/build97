@@ -34,7 +34,7 @@ const Index = () => {
           Молодий виконавець, Ді-джей та реміксер
         </p>
         <p className="text-muted-foreground text-center text-base max-w-sm">
-          Дивіться новини про мене
+          Тут ви можете прочитати про мене
         </p>
       </div>
 
