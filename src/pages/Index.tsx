@@ -3,6 +3,7 @@ import artistAvatar from "@/assets/artist-avatar.jpg";
 
 const Index = () => {
   const links = [
+    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
     { name: "impulselines", url: "https://impulselines.com/2026/01/28/apachi-i-pisnia-mamo-muzyka-yak-podiaka-ta-opora/" },
     { name: "trends.org.ua", url: "https://trends.org.ua/apachi-i-pisnia-mamo-muzyka-yak-podiaka-ta-opora/" },
     { name: "trend-monitor", url: "https://trend-monitor.blogspot.com/2026/01/apachi.html" },
@@ -13,7 +14,6 @@ const Index = () => {
     { name: "eurofashion-pr", url: "https://eurofashion-pr.com/apachi-osobysta-istoriia-shcho-zvuchyt-u-muzytsi/" },
     { name: "u-for-u", url: "https://u-for-u.com/apachi-shliakh-stanovlennia-molodoho-didzheia-ta-vykonavtsia-dlia-iakoho-muzyka-stala-formoiu-osobystoho-vyslovliuvannia/" },
     { name: "culture-trend", url: "https://culture-trend.com/2026/01/28/apachi-molodyj-didzhej-ta-mejker-z-lvivshchyny-iakyj-napolehlyvo-jde-do-svoiei-mrii/" },
-    { name: "globalnews", url: "https://globalnews.org.ua/2026/01/28/apachi-molodyi-artyst-zi-lvivshchyny-yakyi-formuie-vlasne-elektronne-zvuchannia-popry-vidsutnist-industrialnoi-pidtrymky/" },
   ];
 
   return (
